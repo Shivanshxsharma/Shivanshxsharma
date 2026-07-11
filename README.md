@@ -2,9 +2,7 @@
 <tr>
 <td width="30%" valign="top" align="center">
 
-<!-- PLACEHOLDER: your photo -->
 <img width="492" height="627" alt="Screenshot 2026-07-11 192051" src="https://github.com/user-attachments/assets/7bf60cee-51db-44c5-8523-79a39828822c" />
-
 
 `Suspect`
 
@@ -17,16 +15,16 @@
  REGISTERED: NSUT DELHI          CLEARANCE: PORTFOLIO REVIEW
 ════════════════════════════════════════════════════════════════
 
- IDENTIFICATION:   NSUT / IC-2027
+ IDENTIFICATION:   NSUT / ICE-2027
  NAME:              SHIVANSH SHARMA
  TITLE:             FULL-STACK DEVELOPER / AI SYSTEMS
- COLLEGE:           NSUT DELHI
- DEGREE:            B.TECH, INSTRUMENTATION & CONTROL ENGG.
+ COLLEGE:           NETAJI SUBHAS UNIVERSITY OF TECHNOLOGY
+ DEGREE:            B.TECH, INSTRUMENTATION & CONTROL ENGINEERING
  GRADUATION:        2027
  STATUS:            ACTIVELY INTERVIEWING
  ─────────────────────────────────────────────────────────────
- LANGUAGES:  PYTHON . JAVA . SQL
- STACK:      FASTAPI . LANGGRAPH . NEXT.JS . MONGODB . PINECONE
+ LANGUAGES:  PYTHON . JAVA . JAVASCRIPT
+ STACK:      FASTAPI . LANGGRAPH . NEXT.JS . NODE.JS . MONGODB . PINECONE
  ─────────────────────────────────────────────────────────────
  KEY PROJECTS ON FILE:
  A1.  ALFRED     -- AI AGENT PLATFORM
@@ -47,25 +45,23 @@
 <table width="100%">
 <tr>
 <td width="15%" align="center">
-<!-- PLACEHOLDER: Alfred logo -->
 <img width="938" height="941" alt="Screenshot 2026-07-11 192336" src="https://github.com/user-attachments/assets/e6847592-f76d-4f51-9ee4-8295c933925a" />
 
 </td>
 <td width="85%">
 
-### ALFRED — AI Agent Platform
+### ALFRED — Personal AI Agent
 
 **CLASSIFICATION:** Solo-built · Full-Stack · Deployed
-**STACK:** FastAPI · LangGraph · Next.js · Pinecone · MongoDB + PostgreSQL
+**STACK:** FastAPI · LangGraph · Next.js · Pinecone · Zustand · Render + Vercel
 
 **FEATURES:**
-- Multi-provider LLM routing across Gemini, Groq, Mistral, Cerebras, DeepSeek, GLM, Kimi
-- Hybrid RAG over Pinecone with RRF fusion
-- SSE streaming responses with abort support
-- JWT auth with refresh token rotation
-- Google Workspace MCP integration (built with FastMCP)
-- Slug-based wiki memory system with relevancy decay
-- Guest mode with scoped JWT and disabled tools
+- `MODEL_REGISTRY` architecture for unified, dynamic routing across Gemini 2.5 Flash, Llama 3.3 70B, and Cerebras
+- Tavily Search integration for real-time, web-grounded responses
+- LLM Wiki memory system (inspired by Andrej Karpathy) — session-end summarizer, wiki-map context injection, and nightly relevancy decay pruning, cutting long-term memory retrieval latency by 50%
+- 2-layer token-efficient RAG pipeline — chat history queried before Pinecone vector retrieval, with MarkItDown context-aware chunking improving retrieval accuracy by 30% while reducing token consumption
+- SSE streaming with abort support, JWT auth with refresh tokens, Google OAuth
+- Frontend built with Zustand, react-markdown, Mermaid, and Chart.js
 
 **LIVE:** [alfred-khaki.vercel.app](https://alfred-khaki.vercel.app)
 
@@ -75,7 +71,7 @@
 
 ---
 
-<!-- ============ DOCINTEL + HEX SIDE BY SIDE (no logos) ============ -->
+<!-- ============ DOCINTEL + HEX SIDE BY SIDE ============ -->
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
@@ -95,16 +91,17 @@
 </td>
 <td width="50%" valign="top">
 
-### HEX — Real-Time AI Chat Platform
+### HEX — AI Personality Chat Application
 
-**CLASSIFICATION:** Multi-persona chat system
-**STACK:** Gemini API · Socket.IO · JWT · MongoDB
+**CLASSIFICATION:** Full-stack real-time chat with 7 unique personas
+**STACK:** Node.js · React.js · Socket.IO · Clerk · MongoDB
 
 **FEATURES:**
-- Real-time messaging via Socket.IO
-- Multiple AI personas in a single platform
-- JWT-based authentication
-- Deployed on Render
+- Gemini API with streaming output over Socket.IO WebSockets, cutting perceived response latency by 40%
+- Secure JWT authentication via Clerk for protected sessions
+- MongoDB for persistent chat storage and session retrieval
+- Responsive UI with dynamic input resizing and loaders
+- Backend deployed on Render with concurrency optimization
 
 </td>
 </tr>
@@ -119,7 +116,5 @@
   GITHUB: github.com/Shivanshxsharma
 ════════════════════════════════════════════════════════════════
 ```
-
-</div>
 
 </div>
