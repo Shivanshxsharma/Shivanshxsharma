@@ -3,7 +3,8 @@
 <td width="30%" valign="top" align="center">
 
 <!-- PLACEHOLDER: your photo -->
-<img src="assets/photo.png" width="240" alt="photo placeholder" />
+<img width="492" height="627" alt="Screenshot 2026-07-11 192051" src="https://github.com/user-attachments/assets/7bf60cee-51db-44c5-8523-79a39828822c" />
+
 
 `PORTRAIT ON FILE`
 
