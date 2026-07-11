@@ -1,48 +1,38 @@
-<div align="center">
-
-```
-════════════════════════════════════════════════════════════════
-  ALL PLACEMENT OFFERS PROCESSED UNDER ONE-OFFER POLICY
-  ACTIVE STATUS: OPEN TO OPPORTUNITIES · AVAILABILITY: 2027 GRAD
-════════════════════════════════════════════════════════════════
-```
-
-</div>
-
 <table width="100%">
 <tr>
-<td width="60%" valign="top">
+<td width="30%" valign="top" align="center">
 
-### DEVELOPER DOSSIER
+<!-- PLACEHOLDER: your photo -->
+<img src="assets/photo.png" width="240" alt="photo placeholder" />
 
-<!-- PLACEHOLDER: swap the ASCII seal below for a small logo/emblem image if you want:
-     <img src="assets/seal.png" width="60" /> -->
-
-**IDENTIFICATION:** `NSUT / IC-2027`
-**NAME:** Shivansh Sharma
-**TITLE:** Full-Stack Developer · AI Systems Builder
-**COLLEGE:** NSUT Delhi — B.Tech, Instrumentation & Control Engineering
-**GRADUATION:** 2027
-**STATUS:** Actively interviewing
-
-**LANGUAGES:** Python · Java · TypeScript · SQL
-**FRAMEWORKS:** FastAPI · LangGraph · Next.js · React
-**DATABASES:** MongoDB · PostgreSQL · MySQL · Pinecone
-**TOOLS:** Docker · Git · Render · Vercel
-
-**THIS PROFILE IS MAINTAINED ACROSS ALL ACTIVE REPOSITORIES**
+`PORTRAIT ON FILE`
 
 </td>
-<td width="40%" valign="top" align="center">
+<td width="70%" valign="top">
 
-<!-- PLACEHOLDER: your photo/headshot -->
-<img src="assets/photo.png" width="220" alt="photo placeholder" />
+```
+════════════════════════════════════════════════════════════════
+ DEVELOPER FILE -- STATUS: OPEN TO OPPORTUNITIES
+ REGISTERED: NSUT DELHI          CLEARANCE: PORTFOLIO REVIEW
+════════════════════════════════════════════════════════════════
 
-**KEY PROJECTS ON FILE**
-
-`A1.` Alfred — AI Agent Platform
-`A2.` DocIntel — Hybrid RAG Pipeline
-`A3.` Hex — Real-Time AI Chat Platform
+ IDENTIFICATION:   NSUT / IC-2027
+ NAME:              SHIVANSH SHARMA
+ TITLE:             FULL-STACK DEVELOPER / AI SYSTEMS
+ COLLEGE:           NSUT DELHI
+ DEGREE:            B.TECH, INSTRUMENTATION & CONTROL ENGG.
+ GRADUATION:        2027
+ STATUS:            ACTIVELY INTERVIEWING
+ ─────────────────────────────────────────────────────────────
+ LANGUAGES:  PYTHON . JAVA . SQL
+ STACK:      FASTAPI . LANGGRAPH . NEXT.JS . MONGODB . PINECONE
+ ─────────────────────────────────────────────────────────────
+ KEY PROJECTS ON FILE:
+ A1.  ALFRED     -- AI AGENT PLATFORM
+ A2.  DOCINTEL   -- HYBRID RAG PIPELINE
+ A3.  HEX        -- REAL-TIME AI CHAT PLATFORM
+════════════════════════════════════════════════════════════════
+```
 
 </td>
 </tr>
@@ -83,12 +73,10 @@
 
 ---
 
-<!-- ============ DOCINTEL + HEX SIDE BY SIDE ============ -->
+<!-- ============ DOCINTEL + HEX SIDE BY SIDE (no logos) ============ -->
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-
-<p align="center"><img src="assets/docintel-logo.png" width="70" alt="DocIntel logo" /></p>
 
 ### DOCINTEL — Hybrid RAG Pipeline
 
@@ -104,8 +92,6 @@
 
 </td>
 <td width="50%" valign="top">
-
-<p align="center"><img src="assets/hex-logo.png" width="70" alt="Hex logo" /></p>
 
 ### HEX — Real-Time AI Chat Platform
 
@@ -131,5 +117,7 @@
   GITHUB: github.com/Shivanshxsharma
 ════════════════════════════════════════════════════════════════
 ```
+
+</div>
 
 </div>
