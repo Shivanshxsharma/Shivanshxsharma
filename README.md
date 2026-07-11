@@ -48,7 +48,8 @@
 <tr>
 <td width="15%" align="center">
 <!-- PLACEHOLDER: Alfred logo -->
-<img src="assets/alfred-logo.png" width="80" alt="Alfred logo" />
+<img width="938" height="941" alt="Screenshot 2026-07-11 192336" src="https://github.com/user-attachments/assets/e6847592-f76d-4f51-9ee4-8295c933925a" />
+
 </td>
 <td width="85%">
 
