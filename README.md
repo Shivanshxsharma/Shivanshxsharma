@@ -2,7 +2,7 @@
 <tr>
 <td width="30%" valign="top" align="center">
 
-<img width="492" height="627" alt="Screenshot 2026-07-11 192051" src="https://github.com/user-attachments/assets/7bf60cee-51db-44c5-8523-79a39828822c" />
+<img width="1200" height="1404" alt="1791296983-103 216 143 134" src="https://github.com/user-attachments/assets/b99dcb05-b536-4fed-b91f-4c7a381dc27a" />
 
 `Suspect`
 
