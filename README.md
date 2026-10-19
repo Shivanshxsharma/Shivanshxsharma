@@ -146,21 +146,7 @@
 </tr>
 </table>
 
-<img src="./assets/divider.svg" alt="" width="100%" />
 
-<!-- ============ INSIGHTS ============ -->
-### A6 · INSIGHTS — Social Analytics Dashboard
-
-**CLASSIFICATION:** In progress · Multi-platform SaaS<br>
-**STACK:** FastAPI · PostgreSQL · modular monolith with background workers
-
-- One dashboard for creators and businesses, starting with YouTube, then Meta, LinkedIn, TikTok, and Google Analytics
-- Multi-tenant accounts: individual or company, teams, and per-platform Read/Post roles
-- Shared sign-in across separate tools, with rotating refresh-token auth
-
-<img src="./assets/divider.svg" alt="" width="100%" />
-
-<div align="center">
 
 [![GitHub](https://img.shields.io/badge/GITHUB-Shivanshxsharma-FFD400?style=flat-square&labelColor=0a0a0a)](https://github.com/Shivanshxsharma)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-shivansh--sharma-FFD400?style=flat-square&labelColor=0a0a0a)](https://www.linkedin.com/in/shivansh-sharma-a72283283)
