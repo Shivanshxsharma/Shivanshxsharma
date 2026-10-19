@@ -36,8 +36,8 @@
  A1.  ALFRED      -- AI AGENT PLATFORM
  A2.  DOCINTEL    -- HYBRID RAG PIPELINE
  A3.  HEX         -- REAL-TIME AI CHAT PLATFORM
- A4.  FOCUSNOTCH  -- WINDOWS FOCUS OVERLAY
- A5.  PDF PORTAL  -- [ONE-LINE DESCRIPTION]
+ A4.  FOCUS POT   -- TASKBAR FOCUS COMPANION
+ A5.  PDFPORTAL   -- OFFLINE PDF TOOLS
  A6.  INSIGHTS    -- SOCIAL ANALYTICS DASHBOARD
 ════════════════════════════════════════════════════════════════
 ```
@@ -61,7 +61,7 @@
 
 ### A1 · ALFRED — Personal AI Agent
 
-**CLASSIFICATION:** Solo-built · Full-Stack · Deployed
+**CLASSIFICATION:** Solo-built · Full-Stack · Deployed<br>
 **STACK:** FastAPI · LangGraph · Next.js · Pinecone · Zustand · Render + Vercel
 
 - `MODEL_REGISTRY` architecture for unified routing across Gemini 2.5 Flash, Llama 3.3 70B, and Cerebras
@@ -84,12 +84,12 @@
 
 ### A2 · DOCINTEL — Hybrid RAG Pipeline
 
-**CLASSIFICATION:** Take-home build → HPC deployment
+**CLASSIFICATION:** Take-home build → HPC deployment<br>
 **STACK:** Docling · Pinecone · BM25 · Cohere Rerank
 
 - Document parsing and chunking via Docling
-- Dense (Pinecone) + sparse (BM25) retrieval merged with RRF
-- Cohere Rerank for precision re-ranking
+- Dense (Pinecone) + sparse (BM25) retrieval merged with RRF, then Cohere Rerank
+- Benchmarked on QASPER against a standard RAG: 63% fewer retrieval misses, +30% MRR
 - Deployed and evaluated on client HPC infrastructure
 
 </td>
@@ -97,7 +97,7 @@
 
 ### A3 · HEX — AI Personality Chat
 
-**CLASSIFICATION:** Full-stack real-time chat, 7 personas
+**CLASSIFICATION:** Full-stack real-time chat, 7 personas<br>
 **STACK:** Node.js · React.js · Socket.IO · Clerk · MongoDB
 
 - Gemini streaming over Socket.IO WebSockets, cutting perceived response latency by 40%
@@ -110,32 +110,37 @@
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
-<!-- ============ FOCUSNOTCH + PDF PORTAL ============ -->
+<!-- ============ FOCUS POT + PDFPORTAL ============ -->
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### A4 · FOCUSNOTCH — Focus Overlay
+### A4 · FOCUS POT — Taskbar Focus Companion
 
-**CLASSIFICATION:** Desktop app · Windows
-**STACK:** [FILL IN]
+**CLASSIFICATION:** Windows app · MIT<br>
+**STACK:** Tauri 2 · Rust · JavaScript
 
-- Notch-style bar that sits at the top of the screen
-- Active task, pomodoro timer, and to-do list
-- Media controls and web shortcuts
-- Screenshot organizer
+- Lives on the empty left end of the Windows taskbar
+- Pomodoro timer, tasks, and media controls for every player
+- Clipboard history (opt-in, memory only) and a screenshot organizer
+- Windows 11, Material 3, and Liquid Glass themes in an 8 MB app
+
+**REPO:** [focus-pot](https://github.com/Shivanshxsharma/focus-pot) · [Download](https://github.com/Shivanshxsharma/focus-pot/releases/latest/download/FocusPot-Setup.exe)
 
 </td>
 <td width="50%" valign="top">
 
-### A5 · PDF PORTAL — [Subtitle]
+### A5 · PDFPORTAL — Offline PDF Tools
 
-**CLASSIFICATION:** [FILL IN]
-**STACK:** [FILL IN]
+**CLASSIFICATION:** Windows app · AGPL-3.0<br>
+**STACK:** Tauri 2 · Rust · Python · PyMuPDF
 
-- [What it does]
-- [Key feature or result]
-- [Deployment or link]
+- Drag a file and shake it: a ring of tools opens under the cursor
+- 10 tools: compress, merge, split, rotate, watermark, protect, and more
+- Fully offline, so files never leave the PC
+- Installer built and tested by GitHub Actions on every release
+
+**REPO:** [pdfportal](https://github.com/Shivanshxsharma/pdfportal) · [Download](https://github.com/Shivanshxsharma/pdfportal/releases/latest/download/PDFportal-Setup.exe)
 
 </td>
 </tr>
@@ -146,7 +151,7 @@
 <!-- ============ INSIGHTS ============ -->
 ### A6 · INSIGHTS — Social Analytics Dashboard
 
-**CLASSIFICATION:** In progress · Multi-platform SaaS
+**CLASSIFICATION:** In progress · Multi-platform SaaS<br>
 **STACK:** FastAPI · PostgreSQL · modular monolith with background workers
 
 - One dashboard for creators and businesses, starting with YouTube, then Meta, LinkedIn, TikTok, and Google Analytics
@@ -158,6 +163,7 @@
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GITHUB-Shivanshxsharma-FFD400?style=flat-square&labelColor=0a0a0a)](https://github.com/Shivanshxsharma)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-shivansh--sharma-FFD400?style=flat-square&labelColor=0a0a0a)](https://www.linkedin.com/in/shivansh-sharma-a72283283)
 [![HuggingFace](https://img.shields.io/badge/HUGGINGFACE-shivansh012-FFD400?style=flat-square&labelColor=0a0a0a)](https://huggingface.co/shivansh012)
 
 </div>
