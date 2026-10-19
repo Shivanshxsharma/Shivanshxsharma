@@ -1,3 +1,9 @@
+<div align="center">
+
+<img src="./assets/banner.svg" alt="Shivansh Sharma - Developer File" width="100%" />
+
+</div>
+
 <table width="100%">
 <tr>
 <td width="30%" valign="top" align="center">
@@ -27,9 +33,12 @@
  STACK:      FASTAPI . LANGGRAPH . NEXT.JS . NODE.JS . MONGODB . PINECONE
  ─────────────────────────────────────────────────────────────
  KEY PROJECTS ON FILE:
- A1.  ALFRED     -- AI AGENT PLATFORM
- A2.  DOCINTEL   -- HYBRID RAG PIPELINE
- A3.  HEX        -- REAL-TIME AI CHAT PLATFORM
+ A1.  ALFRED      -- AI AGENT PLATFORM
+ A2.  DOCINTEL    -- HYBRID RAG PIPELINE
+ A3.  HEX         -- REAL-TIME AI CHAT PLATFORM
+ A4.  FOCUSNOTCH  -- WINDOWS FOCUS OVERLAY
+ A5.  PDF PORTAL  -- [ONE-LINE DESCRIPTION]
+ A6.  INSIGHTS    -- SOCIAL ANALYTICS DASHBOARD
 ════════════════════════════════════════════════════════════════
 ```
 
@@ -37,9 +46,9 @@
 </tr>
 </table>
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
-## PROJECT FILES
+## `> PROJECT FILES`
 
 <!-- ============ ALFRED ============ -->
 <table width="100%">
@@ -50,18 +59,15 @@
 </td>
 <td width="85%">
 
-### ALFRED — Personal AI Agent
+### A1 · ALFRED — Personal AI Agent
 
 **CLASSIFICATION:** Solo-built · Full-Stack · Deployed
 **STACK:** FastAPI · LangGraph · Next.js · Pinecone · Zustand · Render + Vercel
 
-**FEATURES:**
-- `MODEL_REGISTRY` architecture for unified, dynamic routing across Gemini 2.5 Flash, Llama 3.3 70B, and Cerebras
-- Tavily Search integration for real-time, web-grounded responses
-- LLM Wiki memory system (inspired by Andrej Karpathy) — session-end summarizer, wiki-map context injection, and nightly relevancy decay pruning, cutting long-term memory retrieval latency by 50%
-- 2-layer token-efficient RAG pipeline — chat history queried before Pinecone vector retrieval, with MarkItDown context-aware chunking improving retrieval accuracy by 30% while reducing token consumption
-- SSE streaming with abort support, JWT auth with refresh tokens, Google OAuth
-- Frontend built with Zustand, react-markdown, Mermaid, and Chart.js
+- `MODEL_REGISTRY` architecture for unified routing across Gemini 2.5 Flash, Llama 3.3 70B, and Cerebras
+- LLM Wiki memory system (inspired by Andrej Karpathy) with session-end summarizer and nightly relevancy decay pruning, cutting memory retrieval latency by 50%
+- 2-layer token-efficient RAG: chat history queried before Pinecone, MarkItDown chunking improving retrieval accuracy by 30%
+- Tavily web search, SSE streaming with abort, JWT auth with refresh tokens, Google OAuth
 
 **LIVE:** [alfred-khaki.vercel.app](https://alfred-khaki.vercel.app)
 
@@ -69,52 +75,89 @@
 </tr>
 </table>
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
 
-<!-- ============ DOCINTEL + HEX SIDE BY SIDE ============ -->
+<!-- ============ DOCINTEL + HEX ============ -->
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### DOCINTEL — Hybrid RAG Pipeline
+### A2 · DOCINTEL — Hybrid RAG Pipeline
 
 **CLASSIFICATION:** Take-home build → HPC deployment
 **STACK:** Docling · Pinecone · BM25 · Cohere Rerank
 
-**FEATURES:**
 - Document parsing and chunking via Docling
-- Hybrid retrieval combining dense (Pinecone) + sparse (BM25) search
-- RRF fusion for result merging
+- Dense (Pinecone) + sparse (BM25) retrieval merged with RRF
 - Cohere Rerank for precision re-ranking
 - Deployed and evaluated on client HPC infrastructure
 
 </td>
 <td width="50%" valign="top">
 
-### HEX — AI Personality Chat Application
+### A3 · HEX — AI Personality Chat
 
-**CLASSIFICATION:** Full-stack real-time chat with 7 unique personas
+**CLASSIFICATION:** Full-stack real-time chat, 7 personas
 **STACK:** Node.js · React.js · Socket.IO · Clerk · MongoDB
 
-**FEATURES:**
-- Gemini API with streaming output over Socket.IO WebSockets, cutting perceived response latency by 40%
-- Secure JWT authentication via Clerk for protected sessions
-- MongoDB for persistent chat storage and session retrieval
-- Responsive UI with dynamic input resizing and loaders
+- Gemini streaming over Socket.IO WebSockets, cutting perceived response latency by 40%
+- JWT auth via Clerk, chat history persisted in MongoDB
 - Backend deployed on Render with concurrency optimization
 
 </td>
 </tr>
 </table>
 
----
+<img src="./assets/divider.svg" alt="" width="100%" />
+
+<!-- ============ FOCUSNOTCH + PDF PORTAL ============ -->
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### A4 · FOCUSNOTCH — Focus Overlay
+
+**CLASSIFICATION:** Desktop app · Windows
+**STACK:** [FILL IN]
+
+- Notch-style bar that sits at the top of the screen
+- Active task, pomodoro timer, and to-do list
+- Media controls and web shortcuts
+- Screenshot organizer
+
+</td>
+<td width="50%" valign="top">
+
+### A5 · PDF PORTAL — [Subtitle]
+
+**CLASSIFICATION:** [FILL IN]
+**STACK:** [FILL IN]
+
+- [What it does]
+- [Key feature or result]
+- [Deployment or link]
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" alt="" width="100%" />
+
+<!-- ============ INSIGHTS ============ -->
+### A6 · INSIGHTS — Social Analytics Dashboard
+
+**CLASSIFICATION:** In progress · Multi-platform SaaS
+**STACK:** FastAPI · PostgreSQL · modular monolith with background workers
+
+- One dashboard for creators and businesses, starting with YouTube, then Meta, LinkedIn, TikTok, and Google Analytics
+- Multi-tenant accounts: individual or company, teams, and per-platform Read/Post roles
+- Shared sign-in across separate tools, with rotating refresh-token auth
+
+<img src="./assets/divider.svg" alt="" width="100%" />
 
 <div align="center">
 
-```
-════════════════════════════════════════════════════════════════
-  GITHUB: github.com/Shivanshxsharma
-════════════════════════════════════════════════════════════════
-```
+[![GitHub](https://img.shields.io/badge/GITHUB-Shivanshxsharma-FFD400?style=flat-square&labelColor=0a0a0a)](https://github.com/Shivanshxsharma)
+[![HuggingFace](https://img.shields.io/badge/HUGGINGFACE-shivansh012-FFD400?style=flat-square&labelColor=0a0a0a)](https://huggingface.co/shivansh012)
 
 </div>
